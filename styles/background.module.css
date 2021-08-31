@@ -1,0 +1,33 @@
+  .img {
+    width: 100%;
+    vertical-align: top;
+  }
+  
+  .cont {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+  }
+  
+  .bgHiQimage {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    pointer-events: none;
+    overflow: hidden;
+    background-size: 100% 100%;
+    background-position: center;
+    background-image: url(/calendar-background.png);
+  }
+  
+  .button {
+    background: rgb(51, 51, 51);
+    color: rgb(231, 33, 155);
+  }
+  
+  .container {
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }

@@ -1,0 +1,23 @@
+html,
+body {
+  background-image: url(/calendar-background.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100%;
+  font-family: 'Trebuchet MS', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0%;
+}
+
+.boxColor {
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.685);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
