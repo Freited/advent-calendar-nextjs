@@ -1,6 +1,6 @@
 module.exports = {
   reactStrictMode: true,
-  useFileSystemPublicRoutes: false,
+  useFileSystemPublicRoutes: true,
 
   eslint: {
     ignoreDuringBuilds: true,
